@@ -14,15 +14,23 @@
 
 # Todo
 
-- unify styling
+- understand Parcel large bundle size
+
+  - i've never seen these sorts of large file sizes when using webpack
+
+* loading state
+
+  - make use of worker loading / transforming data to provide loading feedback at startup
+
+* unify styling
 
   - most static style is in main.css standard modern css (including vars)
   - most dynamic style is inline css-in-js
 
-- add unit tests for reducer
+* add unit tests for reducer
 
-- fix mouseover position in "daily" view
+* fix mouseover position in "daily" view
 
-- integrate "milestones" component
+* integrate "milestones" component
   - this allows users to slide through various milestones e.g. "10k trees planted"
   - the graph would automatically zoom to the point to show the day etc.
